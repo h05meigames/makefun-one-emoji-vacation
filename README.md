@@ -23,3 +23,7 @@ UTF-16 units), rejects whitespace-only input, requires a single emoji shape,
 writes the file, then reads it back and fails loudly if the read-back
 differs — and checks the file's byte length matches too, so an encoding
 drift can never silently ship. It prints the same emoji to stdout.
+
+Why 🌅: a wave only says "ocean", but a sunrise over the sea says dawn, a
+horizon, and waking up somewhere else — the feeling that makes a stranger
+imagine themselves there and book the trip.

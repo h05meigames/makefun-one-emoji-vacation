@@ -6,14 +6,15 @@
 // Unicode code points, not UTF-16 units) and single-emoji shape before
 // anything is written, and the same emoji is printed to stdout.
 //
-// The pick: 🌊 (U+1F30A Water Wave). The ocean is the one image every dream
-// vacation shares — a wave says sea, escape and open water at a glance, in
-// any language, with no text needed.
+// The pick: 🌅 (U+1F305 Sunrise). A wave only says "ocean" — any beach
+// photo does that. A sunrise over the sea says dawn, a horizon, and waking
+// up somewhere else: the exact feeling that makes a stranger imagine
+// themselves there and book the trip. It is the more evocative pick.
 
 import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const EMOJI = "🌊";
+const EMOJI = "🌅";
 
 // The gate allows 1-8 characters; the entry is exactly one emoji.
 const codePoints = [...EMOJI].length;
