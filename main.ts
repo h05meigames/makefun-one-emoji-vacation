@@ -6,15 +6,17 @@
 // Unicode code points, not UTF-16 units) and single-emoji shape before
 // anything is written, and the same emoji is printed to stdout.
 //
-// The pick: 🌅 (U+1F305 Sunrise). A wave only says "ocean" — any beach
-// photo does that. A sunrise over the sea says dawn, a horizon, and waking
-// up somewhere else: the exact feeling that makes a stranger imagine
-// themselves there and book the trip. It is the more evocative pick.
+// The pick (round 2): 🛫 (U+1F6EB Airplane Departure). Round 1's 🌅 is a
+// beautiful scene — but a sunrise is something you can see from home. 🛫
+// is the moment you actually leave: the plane lifting off, the decision
+// made, the trip begun. The judge picks the emoji that most makes a
+// stranger want to book a flight — nothing triggers that impulse like the
+// departure itself. It is the more evocative pick.
 
 import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const EMOJI = "🌅";
+const EMOJI = "🛫";
 
 // The gate allows 1-8 characters; the entry is exactly one emoji.
 const codePoints = [...EMOJI].length;

@@ -11,7 +11,9 @@ bounty on [make.fun](https://make.fun/r/0ene8b3q).
 
 ## The emoji
 
-> 🌅
+> 🛫
+
+Round 2 pick — round 1 submitted 🌅 (sunrise over the sea).
 
 ## How it works
 
@@ -24,6 +26,8 @@ writes the file, then reads it back and fails loudly if the read-back
 differs — and checks the file's byte length matches too, so an encoding
 drift can never silently ship. It prints the same emoji to stdout.
 
-Why 🌅: a wave only says "ocean", but a sunrise over the sea says dawn, a
-horizon, and waking up somewhere else — the feeling that makes a stranger
-imagine themselves there and book the trip.
+Why 🛫 (round 2): round 1's 🌅 is a beautiful scene, but a sunrise is
+something you can see from home. 🛫 is the moment you actually leave — the
+plane lifting off, the decision made, the trip begun. The judge picks the
+emoji that most makes a stranger want to book a flight, and nothing
+triggers that impulse like the departure itself.
